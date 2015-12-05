@@ -1,0 +1,59 @@
+.btn 
+{
+	background: #2E6EA3;
+	padding: 10px;
+	border-radius: 5px;
+	color: #fff;
+	box-shadow: 1px 1px 0 #000;
+	border: 1px solid #8F8F8F;
+	width:auto;
+}
+.btn:visited
+{
+	color: #fff;
+}
+.loader.btn
+{
+	display:none;
+	padding:10px 36px;
+
+}
+
+.checkout.btn.hide{ display:none;}
+.download-loop-outer,.download-checkout-loop-outer
+{
+	position:relative;
+}
+.download-loader
+{
+	
+	background-color:rgba(255,255,255,0.8);
+	position:absolute;
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	background-position:center;
+	background-size:60px;
+	background-repeat:no-repeat;
+	display:none;
+}
+.download-loader.continue
+{
+	height:50px;
+	bottom:0;
+	top:auto;
+	background-size: 40px;
+}
+#page-end
+{
+	height:50px; 
+}
+.download-paginate a
+{
+	padding:5px;
+}
+.download-paginate a:hover 
+{
+	cursor:pointer;
+}
